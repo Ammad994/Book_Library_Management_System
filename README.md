@@ -1,29 +1,30 @@
-# TodoList Application
+# Book Library Management System
 
 ## Overview
 
-The TodoList Application is a simple and intuitive task management tool designed to help you organize and track your daily tasks, to-dos, and reminders. Whether you're a busy professional, a student, or just want to stay organized in your daily life, this application is here to make your life easier.
+The Book Library Management System is a Python-based application that provides a simple and efficient solution for managing a library's book inventory and operations. With this system, librarians can easily catalog books, handle member management, facilitate book checkouts and returns, and perform searches for efficient library operations.
 
 ## Features
 
-- Add new tasks: Easily add new tasks to your to-do list with just a few clicks.
-- Edit and Delete: Update or remove tasks as your plans change.
-- Mark as Complete: Check off tasks as you complete them to keep track of your progress.
-- Priority Levels: Assign priority levels (High, Medium, Low) to tasks for better organization.
-- Due Dates: Set due dates for tasks to help you stay on top of deadlines.
-- Filter and Sort: Filter tasks based on their priority or due date to focus on what matters most.
-- Data Persistence: All your tasks are automatically saved, so you can pick up where you left off.
+- Book Management: Add, view, and delete books in the library collection.
+- Member Management: Maintain a database of library members for smooth tracking.
+- Book Checkouts: Facilitate smooth book checkouts and track due dates and pending returns.
+- Search and Filter: Perform searches for books based on titles or authors for quick access.
+- Mark as Read/Unread: Update the status of books as read or unread to track readership.
+- Data Persistence: Save the library data to a JSON file for future retrieval.
 
-## Technologies Used
+## How to Use
 
-- Python: The application is built using Python programming language.
-- Tkinter: The GUI is created with Tkinter, making it platform-independent and easy to use.
-- SQLite: For data storage and handling task information efficiently.
+- Clone the repository to your local machine.
+- Ensure you have Python installed.
+- Run the library_management_system.py file to launch the application.
+- Use the buttons to add, delete, mark as read/unread, and search for books in the library.
+- Book details can be displayed by selecting a book from the list.
 
-## Screenshots
+## Requirements
 
-![TodoList Screenshot 1](screenshot_1.png)
-![TodoList Screenshot 2](screenshot_2.png)
+- Python 3.x
+- Tkinter (included in standard Python library)
 
 ## How to Use
 
@@ -34,8 +35,9 @@ The TodoList Application is a simple and intuitive task management tool designed
 
 ## Contribution
 
-Contributions to this project are welcome! If you have any ideas, bug fixes, or feature enhancements, feel free to open an issue or submit a pull request. Let's make the TodoList Application even better together!
+Contributions to this project are highly appreciated. If you have any ideas, bug fixes, or feature requests, please feel free to open an issue or submit a pull request. Let's enhance the Book Library Management System together!
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License, which allows you to use, modify, and distribute the code freely.
+
